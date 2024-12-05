@@ -1,0 +1,103 @@
+/*Testing out comment function*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+    font-size: 16px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+ul {
+   list-style-type: none; 
+   justify-content: space-around;
+   align-items: center;
+}
+@keyframes flash-colors {
+    0% { background-color: red; }
+    25% { background-color: blue; }
+    50% { background-color: green; }
+    75% { background-color: yellow; }
+}
+.horizontal-menu {
+    list-style: none; /* Remove default bullet points */
+    display: flex; /* Enable Flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    background-color: #333; /* Optional: Background color for the nav */
+}
+
+/* Style each list item */
+.horizontal-menu li {
+    margin: 0 15px; /* Horizontal spacing between items */
+}
+
+/* Style the links */
+.horizontal-menu li a {
+    display: block; /* Make the entire area clickable */
+    padding: 14px 20px; /* Add padding for better clickability */
+    text-decoration: none; /* Remove underline from links */
+    color: whitesmoke; /* Link text color */
+    font-weight: bold; /* Make link text bold */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for links */
+.horizontal-menu li a:hover {
+    animation: flash-colors 1s infinite;
+    border-radius: 2px; /* Rounded corners on hover */
+}
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  /* Base styles for the image */
+.positioned-image {
+    width: 400px; /* Set image size */
+    height: 400px; /* Maintain aspect ratio */
+    object-fit: cover; /* Allows precise placement */
+    transform: rotate(270deg);
+}
+.positioned-image2 {
+    width: 400px; /* Set image size */
+    height: 400px; /* Maintain aspect ratio */
+    object-fit: cover; /* Allows precise placement */
+}
+
